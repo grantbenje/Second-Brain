@@ -1,0 +1,1 @@
+Criticizing others builds resentment and does not usually change the way they see themselves. Most individuals do not see what they are doing is wrong, or how they could have done anything differently. 
