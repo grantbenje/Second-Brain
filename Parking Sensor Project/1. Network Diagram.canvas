@@ -1,0 +1,35 @@
+{
+	"nodes":[
+		{"id":"f977f6ad0b4937b2","type":"file","file":"Parking Sensor Project/LoRaWAN Network.md","x":-203,"y":-370,"width":400,"height":220},
+		{"id":"3f1a9fdc160dd1ed","type":"text","text":"Parking Sensors","x":-640,"y":-180,"width":130,"height":60,"color":"#000352"},
+		{"id":"4e2a6fd2e38b22fc","type":"text","text":"Parking Sensors","x":-639,"y":-400,"width":130,"height":60,"color":"#000352"},
+		{"id":"d436fa0e64fbbab6","type":"text","text":"Parking Sensors","x":-560,"y":-120,"width":130,"height":60,"color":"#000352"},
+		{"id":"8042e76edee66068","type":"text","text":"Parking Sensors","x":-740,"y":-460,"width":130,"height":60,"color":"#000352"},
+		{"id":"a2d5d13fe0f80e9d","type":"text","text":"Parking Sensors","x":-560,"y":-460,"width":130,"height":60,"color":"#000352"},
+		{"id":"9b3a7a81c8b6e21f","type":"text","text":"Parking Sensors","x":-740,"y":-120,"width":130,"height":60,"color":"#000352"},
+		{"id":"0deaa80b29837022","type":"text","text":"Parking Sensors","x":-840,"y":-180,"width":130,"height":60,"color":"#000352"},
+		{"id":"e0afbdb8d17f11eb","type":"text","text":"Parking Sensors","x":-840,"y":-400,"width":130,"height":60,"color":"#000352"},
+		{"id":"788960f38b16cba9","x":433,"y":-292,"width":187,"height":50,"type":"text","text":"LoRaWAN City Gateway(s)\n- We either have to isntall our own, or piggypack on possibly already existing IoT structure in Cities."},
+		{"id":"8e26049723de549f","x":400,"y":-687,"width":250,"height":60,"type":"text","text":"Server/Backend"},
+		{"id":"04bc910048797104","x":-80,"y":-712,"width":250,"height":50,"type":"text","text":"App"},
+		{"id":"b07bb93a4655b311","x":-80,"y":-662,"width":250,"height":50,"type":"text","text":"Website"},
+		{"id":"377ecf6015005be6","x":-80,"y":-900,"width":250,"height":50,"type":"text","text":"Third Party Integrations?\n\nTry to Partner:\n- Parkmobile\n- Park One\n- the Parking Spot\n- ParkBOI\n- Google?? Lol imagine"},
+		{"id":"c16eeec3f12f11d1","x":400,"y":-420,"width":250,"height":50,"type":"text","text":"Local Computer/Processor\n- Running Chirpstack and transmitting data back to our Server."}
+	],
+	"edges":[
+		{"id":"dccba87b4b157ecb","fromNode":"9b3a7a81c8b6e21f","fromSide":"top","toNode":"f977f6ad0b4937b2","toSide":"left"},
+		{"id":"3f0b0283480d56d5","fromNode":"3f1a9fdc160dd1ed","fromSide":"top","toNode":"f977f6ad0b4937b2","toSide":"left"},
+		{"id":"ccfdfcdacd32cf1d","fromNode":"4e2a6fd2e38b22fc","fromSide":"bottom","toNode":"f977f6ad0b4937b2","toSide":"left"},
+		{"id":"57eaebcbad7e6967","fromNode":"d436fa0e64fbbab6","fromSide":"top","toNode":"f977f6ad0b4937b2","toSide":"left"},
+		{"id":"9461a2c90c17c005","fromNode":"8042e76edee66068","fromSide":"bottom","toNode":"f977f6ad0b4937b2","toSide":"left"},
+		{"id":"2ee4d61b9ff5d204","fromNode":"a2d5d13fe0f80e9d","fromSide":"bottom","toNode":"f977f6ad0b4937b2","toSide":"left","label":"LoRaWAN"},
+		{"id":"1007d6214618038a","fromNode":"0deaa80b29837022","fromSide":"top","toNode":"f977f6ad0b4937b2","toSide":"left"},
+		{"id":"2de2f0ea8f967e29","fromNode":"e0afbdb8d17f11eb","fromSide":"bottom","toNode":"f977f6ad0b4937b2","toSide":"left"},
+		{"id":"5cf4d6c7786fe271","fromNode":"f977f6ad0b4937b2","fromSide":"right","toNode":"788960f38b16cba9","toSide":"left","label":"LoRaWAN"},
+		{"id":"5001764fa5f041cc","fromNode":"788960f38b16cba9","fromSide":"top","toNode":"c16eeec3f12f11d1","toSide":"bottom","label":"Connected Directly"},
+		{"id":"1ca3834f77ffa46a","fromNode":"c16eeec3f12f11d1","fromSide":"top","toNode":"8e26049723de549f","toSide":"bottom","label":"Internet"},
+		{"id":"5d6dee889b985e59","fromNode":"8e26049723de549f","fromSide":"left","toNode":"04bc910048797104","toSide":"right"},
+		{"id":"85244844622d68f1","fromNode":"8e26049723de549f","fromSide":"left","toNode":"b07bb93a4655b311","toSide":"right"},
+		{"id":"37b23e5f46029843","fromNode":"8e26049723de549f","fromSide":"top","toNode":"377ecf6015005be6","toSide":"right"}
+	]
+}

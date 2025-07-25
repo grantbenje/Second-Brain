@@ -1,0 +1,5 @@
+- Every program needs a main function
+- programs always start in the main function. 
+- Go is modular, so the programs can be in different files. 
+- Main HAS to be in package main. other parts of the program can be in different packages
+- func is the keyword for a fucntion
